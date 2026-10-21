@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-15-incrementcertificatecount-never-called-from",
+    "fix/issue-16-ip-rate-limit-guard-trusts-x-forwarded-for",
+    "fix/issue-22-issuecertificate-tsx-date-validation-uses-local",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-15-incrementcertificatecount-never-called-from": "main",
+    "fix/issue-16-ip-rate-limit-guard-trusts-x-forwarded-for": "main",
+    "fix/issue-22-issuecertificate-tsx-date-validation-uses-local": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-15-incrementcertificatecount-never-called-from",
+    "fix/issue-16-ip-rate-limit-guard-trusts-x-forwarded-for",
+    "fix/issue-22-issuecertificate-tsx-date-validation-uses-local",
+    "origin"
+  ]
+}
